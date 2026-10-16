@@ -1,2 +1,2 @@
 # GumBow
-Curated list of Gum packs managed by Julius the Unicorn. 
+Curated gum packs managed by Julius the Unicorn. 
