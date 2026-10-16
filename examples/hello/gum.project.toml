@@ -1,0 +1,14 @@
+[project]
+name = "gumbow-example"
+version = "1.0.0"
+
+[build]
+sources = ["src/**/*.gum"]
+
+[package]
+namespace = "gumbow.example"
+version = "1.0.0"
+description = "Small full-AST package for testing GUM dependency discovery."
+license = "MIT"
+requires_gum = ">=0.1.9,<0.2.0"
+targets = ["windows-console", "windows-app", "linux-console", "macos-console", "gcc-console", "cpp", "cpp-windows-app", "node", "browser", "kotlin", "csharp", "csharp-app", "csharp-windows-app", "sim6502", "c64"]
